@@ -1,3 +1,3 @@
-# nb_template
+# nb_pyusct
 
-template repository for jupyter notebook pages.
+Jupyter notebook pages for [chenaoki/pyusct](https://github.com/chenaoki/pyusct).

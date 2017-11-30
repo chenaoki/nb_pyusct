@@ -1,0 +1,3 @@
+[submodule "pyusct"]
+	path = pyusct
+	url = https://github.com/chenaoki/pyusct
