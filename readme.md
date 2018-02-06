@@ -10,7 +10,7 @@ Jupyter notebook pages for [chenaoki/pyusct](https://github.com/chenaoki/pyusct)
 ## Run
 
 ```bash
-> docker run -it --rm --runtime=nvidia -v /some/host/folder:/mnt/nas -p xxxx:8888 chenaoki/pyusct-tf:latest
+> docker run -it --rm --runtime=nvidia -v /some/host/folder:/mnt/nas -p xxxx:8888 -p 6006:6006 chenaoki/pyusct-tf:latest
 
 [I 11:21:45.027 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
 [W 11:21:45.052 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
